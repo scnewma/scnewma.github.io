@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "Best blog in the internet, Coding with Shaun, starts"
 date: 2017-06-04
 ---
 
