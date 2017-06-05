@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body, .nav, .footer {
+  background-color: rgb(27, 27, 27);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  height: 25vh;
+  left: 0;
+  right: 0;
+  color: rgb(41, 41, 41);
+  font-size: 8vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-content {
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+.footer a {
+  padding: 1.5rem;
+}
+
+.nav-item a, a.nav-item, .footer a {
+  color: #363636;
+}
+
+.nav-item a.is-active, a.nav-item.is-active {
+  color: #7a7a7a;
+}

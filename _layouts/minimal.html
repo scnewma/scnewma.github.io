@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/vendor/bulma.css">
+    <script src="https://use.fontawesome.com/275c5b4a3d.js"></script>
+    <link rel="stylesheet" href="/css/minimal.css">
+  </head>
+  <body>
+    <div class="header">
+      <div>Coding with Shaun</div>
+    </div>
+
+    <nav class="nav">
+      <div class="nav-center">
+        {% for link in site.navigation %}
+            <a href="{{ link.url }}" class="nav-item {% if page.url == link.url or page.layout == link.layout %}is-active{% endif %}">
+              {{ link.text }}
+            </a>
+        {% endfor %}
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="content page-content">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <a href="https://github.com/scnewma/scnewma.github.io" class="icon">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="/atom.xml" class="icon">
+              <i class="fa fa-rss"></i>
+            </a>
+          </p>
+          <!-- <p class="nav-item">
+            <a href="/atom.xml" class="icon">
+              <i class="fa fa-rss"></i>
+            </a>
+          </p> -->
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

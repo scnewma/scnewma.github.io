@@ -1,8 +1,15 @@
 ---
-layout: default
-title: Coding with Shaun
+layout: minimal
 ---
-<div class="blurb">
-	<h1>Coding with Shaun</h1>
-	<p>The best coding blog on the internet.</p>
-</div><!-- /.blurb -->
+{% for post in site.posts %}
+  <div class="card">
+    <div class="card-content">
+      <p class="title">
+        {{ post.title }}
+      </p>
+      <p class="subtitle">
+        {{ post.date | date: "%B %d, %Y" }}
+      </p>
+    </div>
+  </div>
+{% endfor %}

@@ -1,3 +1,8 @@
 name: Coding with Shaun
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+
+livereload: true
+
+navigation:
+- text: Blog
+  url: /
