@@ -21,7 +21,7 @@ html, body, .nav, .footer {
   height: 25vh;
   left: 0;
   right: 0;
-  color: rgb(41, 41, 41);
+  color: rgb(51, 51, 51);
   font-size: 8vh;
   font-family: 'Poppins', sans-serif;
 }
@@ -48,8 +48,22 @@ html, body, .nav, .footer {
   color: #7a7a7a;
 }
 
-.card {
+.blog-post {
   background-color: rgb(33, 33, 33);
+  transition: background-color .5s;
+}
+
+.blog-post:hover {
+  background-color: rgb(144, 144, 144);
+}
+
+.blog-post .title {
+  color: #636363;
+  transition: color .5s;
+}
+
+.blog-post:hover .title {
+  color: rgb(3, 3, 3);
 }
 
 a.blog-post {
@@ -73,6 +87,29 @@ a.blog-post {
   margin-bottom: 0rem;
 }
 
-.blog-post .title {
-  color: #636363;
+.image.is-rounded img {
+  border-radius: 20px;
+}
+
+a {
+  color: #cecece;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content p,
+.title {
+  color: #777777;
+}
+
+.subtitle {
+  color: #545454;
 }

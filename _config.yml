@@ -8,3 +8,5 @@ navigation:
   url: /
   subresources:
   - post
+- text: About
+  url: /about/
