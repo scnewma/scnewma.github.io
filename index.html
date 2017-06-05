@@ -1,15 +1,17 @@
 ---
 layout: minimal
 ---
-{% for post in site.posts %}
-  <div class="card">
-    <div class="card-content">
-      <p class="title">
-        {{ post.title }}
-      </p>
-      <p class="subtitle">
-        {{ post.date | date: "%B %d, %Y" }}
-      </p>
-    </div>
-  </div>
-{% endfor %}
+<div class="blog-posts">
+  {% for post in site.posts %}
+    <a href="{{ post.url }}" class="card blog-post">
+      <div class="card-content">
+        <p class="title">
+          {{ post.title }}
+        </p>
+        <p class="subtitle">
+          {{ post.date | date: "%B %d, %Y" }}
+        </p>
+      </div>
+    </a>
+  {% endfor %}
+</div>

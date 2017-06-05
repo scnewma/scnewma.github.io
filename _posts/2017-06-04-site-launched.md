@@ -2,6 +2,8 @@
 layout: post
 title: "Best blog in the internet, Coding with Shaun, starts"
 date: 2017-06-04
+tags:
+- test
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
