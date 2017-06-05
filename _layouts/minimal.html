@@ -15,7 +15,7 @@
     <nav class="nav">
       <div class="nav-center">
         {% for link in site.navigation %}
-            <a href="{{ link.url }}" class="nav-item {% if page.url == link.url or page.layout == link.layout %}is-active{% endif %}">
+            <a href="{{ link.url }}" class="nav-item {% if page.url == link.url or link.subresources contains page.layout %}is-active{% endif %}">
               {{ link.text }}
             </a>
         {% endfor %}

@@ -6,3 +6,5 @@ livereload: true
 navigation:
 - text: Blog
   url: /
+  subresources:
+  - post
