@@ -4,6 +4,8 @@ markdown: kramdown
 livereload: true
 
 navigation:
+- text: Blog
+  url: /
 
 collections:
   shorts:

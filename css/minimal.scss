@@ -10,6 +10,10 @@ html, body, .nav, .footer {
   background-color: $background;
 }
 
+#main {
+  padding: 0rem 2rem;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -17,10 +21,11 @@ html, body, .nav, .footer {
   position: relative;
   top: 0;
   height: 25vh;
+  min-height: 12vw;
   left: 0;
   right: 0;
   color: rgb(51, 51, 51);
-  font-size: 8vh;
+  font-size: 8vw;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -74,18 +79,12 @@ $blog_post_transition: .25s;
   }
 }
 
-// .blog-post:hover {
-//   background-color: rgb(144, 144, 144);
-// }
-
-// .blog-post .title {
-//   color: #636363;
-//   transition: color .5s;
-// }
-//
-// .blog-post:hover .title {
-//   color: rgb(3, 3, 3);
-// }
+.content {
+  blockquote {
+    background-color: #232323;
+    border-left-color: #505050;
+  }
+}
 
 .image.is-rounded img {
   border-radius: 20px;
