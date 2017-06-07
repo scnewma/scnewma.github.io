@@ -12,6 +12,7 @@
       <div>Coding with Shaun</div>
     </div>
 
+    {% unless page.excludeNav %}
     <nav class="nav">
       <div class="nav-center">
         {% for link in site.navigation %}
@@ -21,6 +22,7 @@
         {% endfor %}
       </div>
     </nav>
+    {% endunless %}
 
     <div class="container">
       <div class="page-content">

@@ -4,9 +4,8 @@ markdown: kramdown
 livereload: true
 
 navigation:
-- text: Blog
-  url: /
-  subresources:
-  - post
-- text: About
-  url: /about/
+
+collections:
+  shorts:
+    output: true
+    permalink: /:collection/:path/:title

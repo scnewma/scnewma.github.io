@@ -1,17 +1,18 @@
 ---
 layout: minimal
+excludeNav: true
 ---
-<div class="blog-posts">
-  {% for post in site.posts %}
-    <a href="{{ post.url }}" class="card blog-post">
-      <div class="card-content">
+<div class="tile is-ancestor">
+  <div class="tile is-parent is-vertical">
+    {% for post in site.posts %}
+      <a href="{{ post.url }}" class="tile is-child blog-post">
         <p class="title">
           {{ post.title }}
         </p>
         <p class="subtitle">
           {{ post.date | date: "%B %d, %Y" }}
         </p>
-      </div>
-    </a>
-  {% endfor %}
+      </a>
+    {% endfor %}
+  </div>
 </div>
