@@ -13,7 +13,7 @@
     </div>
 
     {% unless page.excludeNav %}
-    <nav class="nav">
+    <nav>
       <div class="nav-center">
         {% for link in site.navigation %}
             <a href="{{ link.url }}" class="nav-item {% if page.url == link.url or link.subresources contains page.layout %}is-active{% endif %}">
@@ -28,7 +28,7 @@
       {{ content }}
     </div>
 
-    <footer class="footer">
+    <footer>
       <div class="container">
         <div class="content has-text-centered">
           <p>
