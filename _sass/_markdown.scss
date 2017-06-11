@@ -7,17 +7,19 @@ $highlight-font-color: lighten($highlight-background, 30%);
 .markdown {
   blockquote {
     background-color: $markdown-blockquote-background;
-    padding-left: 1rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    border-left: 0.25rem solid $markdown-blockquote-border-left;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    margin: 1rem;
+    padding: .5em .75em .5em 1em;
+    border-left: 0.25em solid $markdown-blockquote-border-left;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    margin: 1em;
 
     .highlighter-rouge {
       background: lighten($markdown-blockquote-background, 25%);
       color: lighten($markdown-blockquote-background, 50%);
+    }
+
+    p {
+      margin: 0;
     }
   }
 
