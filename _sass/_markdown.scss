@@ -8,13 +8,12 @@ $highlight-font-color: lighten($highlight-background, 30%);
   blockquote {
     background-color: $markdown-blockquote-background;
     padding-left: 1rem;
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-    border-left: .2rem solid $markdown-blockquote-border-left;
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-left: 0.25rem solid $markdown-blockquote-border-left;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    margin: 1rem;
 
     .highlighter-rouge {
       background: lighten($markdown-blockquote-background, 25%);
@@ -48,6 +47,10 @@ $highlight-font-color: lighten($highlight-background, 30%);
 
   h6 {
     margin-top: 1.5rem;
+  }
+
+  pre {
+    margin: 1em 0px 1em;
   }
 }
 

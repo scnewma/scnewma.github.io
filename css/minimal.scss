@@ -1,8 +1,10 @@
 ---
 ---
 
+@import "reset";
 @import "typography";
 @import "nav";
+@import "footer";
 @import "utility";
 @import "markdown";
 @import "tile";
@@ -35,10 +37,6 @@ html, body, nav, footer {
   @media screen and (max-width: 450px) {
     font-size: 9.5vw;
   }
-}
-
-footer a {
-  margin: 1.5rem;
 }
 
 .image.is-rounded img {

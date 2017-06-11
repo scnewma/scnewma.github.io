@@ -4,11 +4,8 @@ title: "How to start blogging with Jekyll"
 date: 2017-06-10
 ---
 
-This is going to be a quick post describing how to get started blogging with [Jekyll](https://jekyllrb.com/).
-I'm going to cover how to run your blog locally.  In a future post, I will cover how to host your blog, for free!  Let's make a blog!
-
 ## What is Jekyll
-Jekyll is a framework for building static websites.  It allows you to create templates to code your websites dynamically while only serving static content.  This means that you don't have a backing datastore to store all of your assets, it's stored right in the directory structure.
+[Jekyll](https://jekyllrb.com/) is a framework for building static websites.  It allows you to create templates to code your websites dynamically while only serving static content.  This means that you don't have a backing datastore to store all of your assets, it's stored right in the directory structure.
 
 If all you are providing is static web pages, this paradigm is going to help you build the fastest websites possible!  Everything is built at compile-time.  Obviously, the lacking datastore is a limitation, but there are a lot of websites ___(like blogs!)___ that do not need this.
 
