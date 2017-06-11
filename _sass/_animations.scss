@@ -1,12 +1,13 @@
 $animation-duration: 0.3s;
-$animation-hover-scale-factor: 0.025;
 
 .hover-grow {
   transform: perspective(1px) translateZ(0);
   transition-duration: $animation-duration;
   transition-property: transform;
 
-  &:hover {
-    transform: scale(1 + $animation-hover-scale-factor);
+  @for $i from 1 through 20 {
+    &.grow-#{$i * 5}:hover {
+      transform: scale(1 + ($i * 0.05));
+    }
   }
 }

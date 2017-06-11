@@ -47,36 +47,8 @@ html, body, .nav, .footer {
 }
 
 .footer a {
-  padding: 1.5rem;
+  margin: 1.5rem;
 }
-
-// $blog_post_transition: .25s;
-//
-// .blog-post {
-//   background-color: rgb(33, 33, 33);
-//   padding: .75rem 1.25rem;
-//   transition: background-color $blog_post_transition;
-//
-//   .title {
-//     font-size: 1.5rem;
-//     transition: font-size $blog_post_transition;
-//   }
-//
-//   .subtitle {
-//     font-size: 1.25rem;
-//     transition: font-size $blog_post_transition;
-//   }
-//
-//   &:hover {
-//     .title {
-//       font-size: 1.6rem;
-//     }
-//
-//     .subtitle {
-//       font-size: 1.35rem;
-//     }
-//   }
-// }
 
 .image.is-rounded img {
   border-radius: 20px;
