@@ -2,17 +2,13 @@
 layout: minimal
 excludeNav: true
 ---
-<div class="tile is-ancestor">
-  <div class="tile is-parent is-vertical">
-    {% for post in site.posts %}
-      <a href="{{ post.url }}" class="tile is-child blog-post">
-        <p class="title">
-          {{ post.title }}
-        </p>
-        <p class="subtitle">
-          {{ post.date | date: "%B %d, %Y" }}
-        </p>
-      </a>
-    {% endfor %}
-  </div>
-</div>
+{% for post in site.posts %}
+  <a href="{{ post.url }}" class="tile tile-dark hover-grow">
+    <p class="title">
+      {{ post.title }}
+    </p>
+    <p class="subtitle">
+      {{ post.date | date: "%B %d, %Y" }}
+    </p>
+  </a>
+{% endfor %}

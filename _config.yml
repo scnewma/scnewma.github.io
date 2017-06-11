@@ -4,7 +4,7 @@ markdown: kramdown
 livereload: true
 
 navigation:
-- text: Blog
+- text: Archive
   url: /
 
 collections:
