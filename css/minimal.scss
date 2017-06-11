@@ -33,7 +33,7 @@ html, body, nav, footer {
   -webkit-user-select: none;
   user-select: none;
 
-  @media screen and (max-width: 450px) {
+  @media sceen and (max-width: $screen-xs-max) {
     font-size: 9.5vw;
   }
 }
