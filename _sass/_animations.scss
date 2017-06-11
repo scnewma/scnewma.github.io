@@ -11,3 +11,12 @@ $animation-duration: 0.3s;
     }
   }
 }
+
+.hover-spin {
+  transition-duration: $animation-duration;
+  transition-property: transform;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
