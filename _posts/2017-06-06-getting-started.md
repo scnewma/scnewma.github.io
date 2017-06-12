@@ -1,6 +1,7 @@
 ---
 title: "What is this blog about?"
 date: 2017-06-06
+comments: false
 ---
 I'm going to start sharing my findings on this site.  Partially as a place to document
 lessons learned, and partially to be able to share those lessons learned with the community.
