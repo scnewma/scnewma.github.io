@@ -10,16 +10,4 @@ $tile-background: #212121;
     margin-top: .25rem;
     margin-bottom: .25rem;
   }
-
-  &.tile-dark {
-    background-color: $tile-background;
-
-    .title {
-      color: lighten($tile-background, 20%);
-
-      + .subtitle {
-        color: lighten($tile-background, 10%);
-      }
-    }
-  }
 }

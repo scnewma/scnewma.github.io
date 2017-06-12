@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-$text-color: #777777;
 $link-color: lighten($text-color, 20%);
 $link-active-color: lighten($link-color, 10%);
 
@@ -58,8 +57,14 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
+
+  &:hover {
+    color: $link-active-color;
+  }
 }
 
-a:hover {
-  color: $link-active-color;
+.icon {
+  &.is-large {
+    font-size: 1.5em;
+  }
 }

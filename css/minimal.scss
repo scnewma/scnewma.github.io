@@ -1,5 +1,10 @@
 ---
 ---
+$background: #2D283E;
+$accent-text-color: #802BB1;
+$text-color: #D1D7E0;
+$muted-text-color: #4C495D;
+$accent-color: #564F6F;
 
 @import "reset";
 @import "typography";
@@ -11,10 +16,20 @@
 @import "tile";
 @import "animations";
 
-$background: rgb(27, 27, 27);
-
 html, body, nav, footer {
   background-color: $background;
+}
+
+.has-muted-text {
+  color: $muted-text-color !important;
+}
+
+.has-accented-text {
+  color: $accent-text-color !important;
+}
+
+.has-accented-background {
+  background-color: $accent-color !important;
 }
 
 .header {
@@ -26,7 +41,6 @@ html, body, nav, footer {
   height: 15vw;
   left: 0;
   right: 0;
-  color: rgb(51, 51, 51);
   font-size: 8vw;
   font-family: 'Poppins', sans-serif;
   pointer-events: none;
