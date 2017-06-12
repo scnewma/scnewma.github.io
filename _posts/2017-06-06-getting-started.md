@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What is this blog about?"
 date: 2017-06-06
 ---

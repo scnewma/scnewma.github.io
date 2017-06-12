@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="/css/minimal.css">
   </head>
   <body>
-    {% include google_analytics.html %}
+    {% if jekyll.environment == 'production' %}
+      {% include google_analytics.html %}
+    {% endif %}
 
     <div class="header">
       <div>Coding with Shaun</div>

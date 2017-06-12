@@ -11,3 +11,12 @@ collections:
   shorts:
     output: true
     permalink: /:collection/:path/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true

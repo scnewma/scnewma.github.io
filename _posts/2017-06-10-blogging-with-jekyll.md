@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to start blogging with Jekyll"
 date: 2017-06-10
 ---
