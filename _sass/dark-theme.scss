@@ -1,0 +1,51 @@
+$background: #2D283E;
+$accent-text-color: #802BB1;
+$text-color: #D1D7E0;
+$muted-text-color: #4C495D;
+$accent-color: #564F6F;
+$link-color: #56b3b9;
+
+$markdown-blockquote-background: $accent-color;
+$markdown-blockquote-border-left: $accent-text-color;
+
+$highlight-background: $accent-color;
+$highlight-font-color: $text-color;
+
+body,
+button,
+input,
+select,
+textarea {
+  color: $text-color;
+}
+
+.title {
+  + .subtitle {
+    color: darken($text-color, 20%);
+  }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($link-color, 10%);
+  }
+}
+
+html, body, nav, footer {
+  background-color: $background;
+}
+
+.has-muted-text {
+  color: $muted-text-color !important;
+}
+
+.has-accented-text {
+  color: $accent-text-color !important;
+}
+
+.has-accented-background {
+  background-color: $accent-color !important;
+}

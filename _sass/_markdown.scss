@@ -1,9 +1,3 @@
-$markdown-blockquote-background: #313131;
-$markdown-blockquote-border-left: lighten($markdown-blockquote-background, 20%);
-
-$highlight-background: $markdown-blockquote-background;
-$highlight-font-color: lighten($highlight-background, 30%);
-
 .markdown {
   blockquote {
     background-color: $markdown-blockquote-background;
@@ -14,7 +8,7 @@ $highlight-font-color: lighten($highlight-background, 30%);
     margin: 1em;
 
     .highlighter-rouge {
-      background: lighten($markdown-blockquote-background, 25%);
+      background: darken($markdown-blockquote-background, 10%);
       color: lighten($markdown-blockquote-background, 50%);
     }
 
@@ -92,18 +86,18 @@ $highlight-font-color: lighten($highlight-background, 30%);
   .kr { color: #6ab825; font-weight: bold } /* Keyword.Reserved */
   .kt { color: #6ab825; font-weight: bold } /* Keyword.Type */
   .ld { color: #d0d0d0 } /* Literal.Date */
-  .m { color: #3677a9 } /* Literal.Number */
+  .m { color: #80e229 } /* Literal.Number */
   .s { color: #ed9d13 } /* Literal.String */
   .na { color: #bbbbbb } /* Name.Attribute */
   .nb { color: #24909d } /* Name.Builtin */
-  .nc { color: #447fcf; text-decoration: underline } /* Name.Class */
+  .nc { color: #a4cbff } /* Name.Class */
   .no { color: #40ffff } /* Name.Constant */
   .nd { color: #ffa500 } /* Name.Decorator */
   .ni { color: #d0d0d0 } /* Name.Entity */
   .ne { color: #bbbbbb } /* Name.Exception */
   .nf { color: #447fcf } /* Name.Function */
   .nl { color: #d0d0d0 } /* Name.Label */
-  .nn { color: #447fcf } /* Name.Namespace */
+  .nn { color: #79aef7 } /* Name.Namespace */
   .nx { color: #d0d0d0 } /* Name.Other */
   .py { color: #d0d0d0 } /* Name.Property */
   .nt { color: #6ab825; font-weight: bold } /* Name.Tag */
@@ -140,7 +134,7 @@ $highlight-font-color: lighten($highlight-background, 30%);
 .highlighter-rouge {
   background: $highlight-background;
   color: $highlight-font-color;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   margin-left: 1rem;
   margin-right: 1rem;
 

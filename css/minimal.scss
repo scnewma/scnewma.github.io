@@ -1,11 +1,7 @@
 ---
 ---
-$background: #2D283E;
-$accent-text-color: #802BB1;
-$text-color: #D1D7E0;
-$muted-text-color: #4C495D;
-$accent-color: #564F6F;
 
+@import "dark-theme";
 @import "reset";
 @import "typography";
 @import "layout";
@@ -15,22 +11,6 @@ $accent-color: #564F6F;
 @import "markdown";
 @import "tile";
 @import "animations";
-
-html, body, nav, footer {
-  background-color: $background;
-}
-
-.has-muted-text {
-  color: $muted-text-color !important;
-}
-
-.has-accented-text {
-  color: $accent-text-color !important;
-}
-
-.has-accented-background {
-  background-color: $accent-color !important;
-}
 
 .header {
   display: flex;
