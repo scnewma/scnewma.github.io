@@ -152,7 +152,7 @@ Finally, remember that we had to add `{% raw %}{{ content }}{% endraw %}` to the
 ## More variables
 So, we say that we can use the `content` variable to inject the page content into our template, but what if we need to inject more than one piece of information.  Let's have our blog post control the website title so that our users can easily distinguish our blog posts when they have multiple open.
 
-In `_layouts/default.html` update the `<title>` element to `<title>{{ page.title }}</title>`.  Now, in your blog post add a title property to your front-matter, like so:
+In `_layouts/default.html` update the `<title>` element to `<title>{% raw %}{{ page.title }}{% endraw %}</title>`.  Now, in your blog post add a title property to your front-matter, like so:
 ```yaml
 ---
 layout: default
