@@ -1,7 +1,13 @@
+title: Coding with Shaun
+description: "A blog dedicated to help the audience learn along with the authors."
+url: "http://www.codingwithshaun.com"
+
 name: Coding with Shaun
 markdown: kramdown
 
 livereload: true
+
+permalink: pretty
 
 navigation:
 - text: Archive
@@ -20,3 +26,6 @@ defaults:
     values:
       layout: "post"
       comments: true
+
+gems:
+  - jekyll-seo-tag

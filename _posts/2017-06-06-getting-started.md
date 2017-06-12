@@ -1,5 +1,6 @@
 ---
 title: "What is this blog about?"
+description: "A post explaining what this website is all about."
 date: 2017-06-06
 comments: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "How to start blogging with Jekyll"
+description: "Get up and running with Jekyll.  This post explains how to install Jekyll and how to get a simple blog up and running."
 date: 2017-06-10
 ---
 
