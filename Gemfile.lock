@@ -202,6 +202,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
   jekyll-livereload
   jekyll-seo-tag
 

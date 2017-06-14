@@ -13,10 +13,8 @@ navigation:
 - text: Archive
   url: /
 
-collections:
-  shorts:
-    output: true
-    permalink: /:collection/:path/:title
+feed:
+  path: atom.xml
 
 defaults:
   -
@@ -29,3 +27,4 @@ defaults:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-feed
