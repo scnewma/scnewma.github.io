@@ -1,5 +1,13 @@
 $animation-duration: 0.3s;
 
+/*
+  utility class to apply to tags that
+  do not have the proper display property to animate
+*/
+.is-animated-block {
+  display: inline-block; 
+}
+
 .hover-grow {
   transform: perspective(1px) translateZ(0);
   transition-duration: $animation-duration;

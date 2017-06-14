@@ -26,9 +26,11 @@
   pointer-events: none;
   -webkit-user-select: none;
   user-select: none;
+  word-break: break-word;
 
-  @media sceen and (max-width: $screen-xs-max) {
-    font-size: 9.5vw;
+  @media (max-width: $screen-xs-max) {
+    font-size: 15vw;
+    height: auto;
   }
 }
 
@@ -38,4 +40,18 @@
 
 #disqus_thread {
   padding-top: 2rem;
+}
+
+.four-oh-four {
+  font-size: 5rem;
+  padding: 1rem;
+
+  &.is-secondary {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  small {
+    font-size: 4.5rem;
+  }
 }
