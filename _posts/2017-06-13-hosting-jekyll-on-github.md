@@ -2,6 +2,11 @@
 title: Hosting Jekyll blogs for free!
 description: This post explains how to host your Jekyll-based blog on GitHub for free.
 date: 2017-06-13
+categories:
+  - tutorial
+tags:
+  - jekyll
+  - blog
 ---
 [In our last post we got a new blog setup with Jekyll.]({{ site.baseurl }}{% post_url 2017-06-10-blogging-with-jekyll %})  But, what good is a blog if you can't share it with the world?  Today, we are going to take `super-awesome-blog` and host it on GitHub...for free!
 
