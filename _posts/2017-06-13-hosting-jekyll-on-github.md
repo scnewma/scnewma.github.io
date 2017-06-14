@@ -59,7 +59,7 @@ We do this in the project settings. In settings, scroll down to the section call
 
 > GitHub can also build your website from the `/docs` folder on the master branch.  This is useful when you want to create a website for another project that you have on GitHub.  Maybe some awesome library your made?
 
-After a few minutes (the first time can take 15-20 minutes) you should be able to load your blog by going to `http://<username>.github.io`
+After a few minutes (the first time can take 15-20 minutes) you should be able to load your blog by going to `http://<username>.github.io/<project>`
 
 ## So now what?
 Now anytime you push changes to your remote repository GitHub will automatically build your website and publish it for you, and you didn't pay anything!  That's pretty cool, right?
