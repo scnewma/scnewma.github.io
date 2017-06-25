@@ -17,10 +17,12 @@ These are the essential settings that I turn on in the editor preferences.
 
 #### Scroll Past End
 I personally hate working towards the end of the file.  I like my current work to be in the middle of the screen.  With this enabled you can scroll past the end of the document without needing to put extra line breaks at the end of the document.
+
 ![Scoll past end]({{ site.url }}/assets/img/atom-code-editor/scroll-past-end.png){:width="500px"}
 
 #### Show Indentation Guide
 If you are working in code with a lot of nesting (tends to happen to me a lot in HTML) this makes it easy to determine the starting and ending blocks.  Also makes it easy to keep your code or markup clean.
+
 ![Indentation Guide Example]({{ site.url }}/assets/img/atom-code-editor/indentation-guide.png){:width="500px"}
 
 #### Use Soft Tabs
