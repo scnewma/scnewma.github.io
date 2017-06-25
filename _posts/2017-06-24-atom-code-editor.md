@@ -7,6 +7,11 @@ tags:
 ---
 Whenever I'm working with Javascript, HTML, CSS, or anything else web related, I'm usually using the [Atom editor](https://atom.io/).  I prefer Atom because it is fast, works on all platforms, and has an extensive library of plugins to make it fit your needs.  I'm going to go over some of the preferences that I have setup in Atom to make it even better for me and maybe you will appreciate some of them too.
 
+## Theming
+Like most other editors, Atom is fully customizable.  I really like _(maybe a little bit obsessed)_ with the [solarized color theme](http://ethanschoonover.com/solarized) _(Solarized Dark to be exact)_.  I have it on everything that I can, even my entire Ubuntu desktop.  Anyway, it's built into Atom, so, that makes it super easy.
+
+You can change the color scheme in preferences > themes. Solarized dark is a syntax theme, but it also colorized your editor as well.
+
 ## Editor settings
 These are the essential settings that I turn on in the editor preferences.
 
